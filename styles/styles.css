@@ -940,6 +940,21 @@ body {
   cursor: pointer;
 }
 
+.newsletter-button:hover,
+.newsletter-button:focus {
+  background-color: #68a2ca;
+}
+
+.newsletter-button:active {
+ opacity: 0.3;
+ outline: none;
+ border: none;
+}
+
+.newsletter-button:focus-visible {
+  outline: none;
+}
+
 /*
 Футер
 */
@@ -1076,6 +1091,8 @@ body {
   padding: 8px 20px;
   background-color: #82b3d3;
   width: 140px;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 .button-submit {
@@ -1148,6 +1165,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  box-sizing: border-box;
 }
 
 .button-green:hover,

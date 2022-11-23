@@ -404,7 +404,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0;
+  padding: 12px 0;
 }
 
 .sedona-advantages-wrapper::after {
